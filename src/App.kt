@@ -1,3 +1,8 @@
+
+import basic_exercises.*
+
 fun main() {
-    println("hello world")
+   val employee = Employee()
+
+    println(employee.insertValues("Robert", 50, 'F', 1200.0))
 }
