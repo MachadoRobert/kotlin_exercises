@@ -3,11 +3,11 @@ package basic_exercises
 class Employee {
     //attribute
     var name: String = ""
-    var age: Short = 0
+    var age: Int = 0
     var gender: Char = 'm'
     var salary: Double = 0.toDouble()
 
-    fun insertValues(name:String, age:Short, gender:Char, salary:Double ){
+    fun insertValues(name:String, age:Int, gender:Char, salary:Double ){
         this.name = name
         this.age = age
         this.gender = gender
